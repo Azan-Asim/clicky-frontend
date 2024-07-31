@@ -37,7 +37,7 @@ function Header() {
         <li>BEAUTY</li>
         <li>OTHERS</li>
         <Link to='/Newarrival'><li>NEW ARRIVALS</li></Link>
-        <Link to='/Sale'>   <li className='text-red-600'>SALE</li></Link>
+        <Link to='/Sale'>   <li className='text-blue-600'>SALE</li></Link>
       </ul>
 
       <div className='w-80 h-[38px] relative lg:flex hidden items-center justify-center'>
