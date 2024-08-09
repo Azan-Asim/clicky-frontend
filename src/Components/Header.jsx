@@ -23,6 +23,31 @@ function Header() {
   const notificationToggle = () => {
     setIsNotificationVisible(!isNotificationVisible)
   }
+  const [ismenVisible, setIsmenVisible] = useState(false);
+  console.log("condition : " + ismenVisible)
+  const menToggle = () => {
+    setIsmenVisible(!ismenVisible)
+  }
+  const [iswomenVisible, setIswomenVisible] = useState(false);
+  console.log("condition : " + iswomenVisible)
+  const womenToggle = () => {
+    setIswomenVisible(!iswomenVisible)
+  }
+  const [iskidsVisible, setIskidsVisible] = useState(false);
+  console.log("condition : " + iskidsVisible)
+  const kidsToggle = () => {
+    setIskidsVisible(!iskidsVisible)
+  }
+  const [isbeautyVisible, setIsbeautyVisible] = useState(false);
+  console.log("condition : " + isbeautyVisible)
+  const beautyToggle = () => {
+    setIsbeautyVisible(!isbeautyVisible)
+  }
+  const [isothersVisible, setIsothersVisible] = useState(false);
+  console.log("condition : " + isothersVisible)
+  const othersToggle = () => {
+    setIsothersVisible(!isothersVisible)
+  }
 
   return (
     <nav className='bg-slate-50 flex justify-between sticky top-0 left-0 right-0 items-center w-full p-4'>
@@ -31,13 +56,238 @@ function Header() {
       </div>
 
       <ul className='md:flex text-sm  hidden  gap-4 cursor-pointer '>
-        <li>MEN</li>
-        <li>WOMEN</li>
-        <li>KIDS</li>
-        <li>BEAUTY</li>
-        <li>OTHERS</li>
+        <li  onMouseEnter={menToggle} onMouseLeave={menToggle} >MEN</li>
+        {ismenVisible &&
+          <div className='fixed bg-white rounded-lg  h-80 top-16  left-[5%] right-[5%] '>
+            <div className='pl-10 pt-5 pb-5 flex gap-16'>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Top Wear</u></h1>
+                <li className='mb-2'>Vest</li>
+                <li className='mb-2'>Shirts</li>
+                <li className='mb-2'>T-Shirts</li>
+                <li className='mb-2'>Hoodies</li>
+                <li className='mb-2'>SweatShirts</li>
+                <li className='mb-2'>traditional</li>
+                <li className='mb-2'>Sleep & Lounge</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Bottom Wear</u></h1>
+                <li className='mb-2'>Boxer</li>
+                <li className='mb-2'>Pants</li>
+                <li className='mb-2'>Shorts</li>
+                <li className='mb-2'>Jeans</li>
+                <li className='mb-2'>Trousers</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Foot Wear</u></h1>
+                <li className='mb-2'>Casual Shoes</li>
+                <li className='mb-2'>Boots</li>
+                <li className='mb-2'>Formal Shoes</li>
+                <li className='mb-2'>Sports Shoes</li>
+                <li className='mb-2'>Peshawari</li>
+                <li className='mb-2'>Sandals</li>
+                <li className='mb-2'>Sneakers</li>
+                <li className='mb-2'>Sleapers</li>
+
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Accessories</u></h1>
+                <li className='mb-2'>Wallet</li>
+                <li className='mb-2'>Belts & Key Chains</li>
+                <li className='mb-2'>Fragrances</li>
+                <li className='mb-2'>Eye Wear</li>
+                <li className='mb-2'>Bags</li>
+                <li className='mb-2'>Watches</li>
+              </ul>
+            </div>
+         </div>
+}
+        <li onMouseEnter={womenToggle} onMouseLeave={womenToggle} >WOMEN</li>
+        {iswomenVisible &&
+          <div className='fixed bg-white rounded-lg  h-80 top-16  left-[5%] right-[5%]'>
+             <div className='pl-10 pt-5 pb-5 flex gap-16'>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Top Wear</u></h1>
+                <li className='mb-2'>Vest</li>
+                <li className='mb-2'>Shirts</li>
+                <li className='mb-2'>T-Shirts</li>
+                <li className='mb-2'>Hoodies</li>
+                <li className='mb-2'>SweatShirts</li>
+                <li className='mb-2'>traditional</li>
+                <li className='mb-2'>Sleep & Lounge</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Bottom Wear</u></h1>
+                <li className='mb-2'>Boxer</li>
+                <li className='mb-2'>Pants</li>
+                <li className='mb-2'>Shorts</li>
+                <li className='mb-2'>Jeans</li>
+                <li className='mb-2'>Trousers</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Foot Wear</u></h1>
+                <li className='mb-2'>Casual Shoes</li>
+                <li className='mb-2'>Boots</li>
+                <li className='mb-2'>Formal Shoes</li>
+                <li className='mb-2'>Sports Shoes</li>
+                <li className='mb-2'>Peshawari</li>
+                <li className='mb-2'>Sandals</li>
+                <li className='mb-2'>Sneakers</li>
+                <li className='mb-2'>Sleapers</li>
+
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Accessories</u></h1>
+                <li className='mb-2'>Wallet</li>
+                <li className='mb-2'>Belts & Key Chains</li>
+                <li className='mb-2'>Fragrances</li>
+                <li className='mb-2'>Eye Wear</li>
+                <li className='mb-2'>Bags</li>
+                <li className='mb-2'>Watches</li>
+              </ul>
+            </div>
+         </div>
+}
+        <li onMouseEnter={kidsToggle}  onMouseLeave={kidsToggle}>KIDS</li>
+        {iskidsVisible &&
+          <div className='fixed bg-white rounded-lg  h-80 top-16  left-[5%] right-[5%]'>
+             <div className='pl-10 pt-5 pb-5 flex gap-16'>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Top Wear</u></h1>
+                <li className='mb-2'>Vest</li>
+                <li className='mb-2'>Shirts</li>
+                <li className='mb-2'>T-Shirts</li>
+                <li className='mb-2'>Hoodies</li>
+                <li className='mb-2'>SweatShirts</li>
+                <li className='mb-2'>traditional</li>
+                <li className='mb-2'>Sleep & Lounge</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Bottom Wear</u></h1>
+                <li className='mb-2'>Boxer</li>
+                <li className='mb-2'>Pants</li>
+                <li className='mb-2'>Shorts</li>
+                <li className='mb-2'>Jeans</li>
+                <li className='mb-2'>Trousers</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Foot Wear</u></h1>
+                <li className='mb-2'>Casual Shoes</li>
+                <li className='mb-2'>Boots</li>
+                <li className='mb-2'>Formal Shoes</li>
+                <li className='mb-2'>Sports Shoes</li>
+                <li className='mb-2'>Peshawari</li>
+                <li className='mb-2'>Sandals</li>
+                <li className='mb-2'>Sneakers</li>
+                <li className='mb-2'>Sleapers</li>
+
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Accessories</u></h1>
+                <li className='mb-2'>Wallet</li>
+                <li className='mb-2'>Belts & Key Chains</li>
+                <li className='mb-2'>Fragrances</li>
+                <li className='mb-2'>Eye Wear</li>
+                <li className='mb-2'>Bags</li>
+                <li className='mb-2'>Watches</li>
+              </ul>
+            </div>
+         </div>
+}
+        <li onMouseEnter={beautyToggle} onMouseLeave={beautyToggle}>BEAUTY</li>
+        {isbeautyVisible &&
+          <div className='fixed bg-white rounded-lg  h-80 top-16  left-[5%] right-[5%]'>
+             <div className='pl-10 pt-5 pb-5 flex gap-16'>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Top Wear</u></h1>
+                <li className='mb-2'>Vest</li>
+                <li className='mb-2'>Shirts</li>
+                <li className='mb-2'>T-Shirts</li>
+                <li className='mb-2'>Hoodies</li>
+                <li className='mb-2'>SweatShirts</li>
+                <li className='mb-2'>traditional</li>
+                <li className='mb-2'>Sleep & Lounge</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Bottom Wear</u></h1>
+                <li className='mb-2'>Boxer</li>
+                <li className='mb-2'>Pants</li>
+                <li className='mb-2'>Shorts</li>
+                <li className='mb-2'>Jeans</li>
+                <li className='mb-2'>Trousers</li>
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Foot Wear</u></h1>
+                <li className='mb-2'>Casual Shoes</li>
+                <li className='mb-2'>Boots</li>
+                <li className='mb-2'>Formal Shoes</li>
+                <li className='mb-2'>Sports Shoes</li>
+                <li className='mb-2'>Peshawari</li>
+                <li className='mb-2'>Sandals</li>
+                <li className='mb-2'>Sneakers</li>
+                <li className='mb-2'>Sleapers</li>
+
+              </ul>
+              <ul>
+                <h1 className='text-lg mb-3 font-bold '> <u>Accessories</u></h1>
+                <li className='mb-2'>Wallet</li>
+                <li className='mb-2'>Belts & Key Chains</li>
+                <li className='mb-2'>Fragrances</li>
+                <li className='mb-2'>Eye Wear</li>
+                <li className='mb-2'>Bags</li>
+                <li className='mb-2'>Watches</li>
+              </ul>
+            </div>
+         </div>
+}
+        <li onMouseEnter={othersToggle} onMouseLeave={othersToggle}>OTHERS</li>
+        {isothersVisible &&
+           <div className='fixed bg-white rounded-lg  h-80 top-16  left-[5%] right-[5%]'>
+           <div className='pl-10 pt-5 pb-5 flex gap-16'>
+            <ul>
+              <h1 className='text-lg mb-3 font-bold '> <u>Top Wear</u></h1>
+              <li className='mb-2'>Vest</li>
+              <li className='mb-2'>Shirts</li>
+              <li className='mb-2'>T-Shirts</li>
+              <li className='mb-2'>Hoodies</li>
+              <li className='mb-2'>SweatShirts</li>
+              <li className='mb-2'>traditional</li>
+              <li className='mb-2'>Sleep & Lounge</li>
+            </ul>
+            <ul>
+              <h1 className='text-lg mb-3 font-bold '> <u>Bottom Wear</u></h1>
+              <li className='mb-2'>Boxer</li>
+              <li className='mb-2'>Pants</li>
+              <li className='mb-2'>Shorts</li>
+              <li className='mb-2'>Jeans</li>
+              <li className='mb-2'>Trousers</li>
+            </ul>
+            <ul>
+              <h1 className='text-lg mb-3 font-bold '> <u>Foot Wear</u></h1>
+              <li className='mb-2'>Casual Shoes</li>
+              <li className='mb-2'>Boots</li>
+              <li className='mb-2'>Formal Shoes</li>
+              <li className='mb-2'>Sports Shoes</li>
+              <li className='mb-2'>Peshawari</li>
+              <li className='mb-2'>Sandals</li>
+              <li className='mb-2'>Sneakers</li>
+              <li className='mb-2'>Sleapers</li>
+
+            </ul>
+            <ul>
+              <h1 className='text-lg mb-3 font-bold '> <u>Accessories</u></h1>
+              <li className='mb-2'>Wallet</li>
+              <li className='mb-2'>Belts & Key Chains</li>
+              <li className='mb-2'>Fragrances</li>
+              <li className='mb-2'>Eye Wear</li>
+              <li className='mb-2'>Bags</li>
+              <li className='mb-2'>Watches</li>
+            </ul>
+          </div>
+       </div>
+}
         <Link to='/Newarrival'><li>NEW ARRIVALS</li></Link>
-        <Link to='/Sale'>   <li className='text-blue-600'>SALE</li></Link>
+        <Link to='/Sale'>   <li className='text-red-600'>SALE</li></Link>
       </ul>
 
       <div className='w-80 h-[38px] relative lg:flex hidden items-center justify-center'>
@@ -49,13 +299,13 @@ function Header() {
       <div className='flex lg:gap-3 md:gap-2 gap-1 cursor-pointer items-center'>
       <Link to='/Searchpage'><div className='p-1 size-7 sm:size-9 lg:hidden flex '> <Search /> </div></Link>
         <Link to='/Customercare'> <div className='p-1 size-7 sm:size-8'> <img src="./customercare.png" alt="" /> </div></Link>
-        <Link to='/Notification'><div className='p-1 size-7 sm:size-8'> <Bell onClick={notificationToggle}/> </div></Link> 
+        <Link to='/Notification'><div className='p-1 size-7 sm:size-8'> <Bell onMouseEnter={notificationToggle} onMouseLeave={notificationToggle}/> </div></Link> 
         {isNotificationVisible &&
           <div className='fixed bg-white w-56 rounded-lg h-32 bottom-64 left-[78%] top-[65px] right-[10px] hidden md:flex '>
             <div className='w-full h-10 bg-[#eeee] flex justify-center items-center'>Notifications</div>
          </div>
 }
-        <div className='p-1 size-7 md:size-9 md:flex  hidden'> <img onClick={togglebox} src="./profile.png" alt="" /> </div>
+        <div className='p-1 size-7 md:size-9 md:flex  hidden'> <img onMouseEnter={togglebox} onMouseLeave={togglebox} src="./profile.png" alt="" /> </div>
 
 
         {isProfileVisible &&

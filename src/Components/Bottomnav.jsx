@@ -22,7 +22,7 @@ function Bottomnav() {
   return (
     
     <div className='h-16 flex md:hidden  justify-around w-full fixed bg-white bottom-0 pt-3 '> 
-    <Link to='/'><button className=' flex flex-col items-center justify-center text-sm' ><img src="./homeicon.png" className='size-7 ' alt="" /><h1>Home</h1></button></Link>
+    <Link to='/'><button className=' flex flex-col items-center justify-center text-sm' ><img src="./homeicon.png" className='size-6 ' alt="" /><h1>Home</h1></button></Link>
     <button className=' flex flex-col items-center justify-center text-sm'><LayoutDashboard onClick={togglebox}/>
   
           {isCategoryVisible &&
