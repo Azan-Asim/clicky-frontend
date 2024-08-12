@@ -2,12 +2,14 @@ import React from 'react'
 import Deliveryaddressform from '../Components/Shoppingbag/Deliveryaddressform'
 import Coupons from '../Components/Shoppingbag/Coupons'
 import Bottomnav from '../Components/Bottomnav'
+import {Link} from "react-router-dom";
+
 
 function Shoppingbag() {
   return (
     <>
-    <div className='w-full h-20 lg:pl-36  lg:pr-36 md:pl-16  md:pr-16 pl-5 pr-5 flex items-center justify-between '> 
-        <img className='h-6 w-28' src="./clickylogo.png" alt="" />
+    <div className='w-full h-20 lg:pl-36  lg:pr-36 md:pl-16  md:pr-16 pl-5 pr-5 flex items-center justify-between sticky top-0 bg-white '> 
+      <Link to='/'>  <img className='h-6 w-28' src="./clickylogo.png" alt="" /></Link>
         <h1 className='text-lg font-semibold '>SHOPPING BAG</h1>
         <h1 className='text-lg hidden sm:flex '>100% SECURE</h1>
     </div>

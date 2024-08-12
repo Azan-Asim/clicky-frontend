@@ -5,7 +5,7 @@ import {X} from 'lucide-react';
 function Loginorsignup(data) {
     
   return (
-    <div className='fixed bg-white w-full md:w-[35%] rounded-lg h-[90%]  md:h-[100%] bottom-0 left-0 md:left-[65%] right-0  pl-7 pr-7 pt-5 pb-2'>
+    <div className='fixed bg-white w-full md:w-[35%] rounded-lg h-[92%]  md:h-[100%] bottom-0 left-0 md:left-[65%] right-0  pl-7 pr-7 pt-5 pb-2'>
     <div className='flex justify-between'><h1 className=' font-bold text-sm'>Login or Signup</h1>
    <X color="#000000" onClick={data.logInToggle} /></div>
     <div className='w-full flex  gap-3 pt-7'>
@@ -19,7 +19,7 @@ function Loginorsignup(data) {
     <button className='w-full h-10 font-bold text-xs mt-2 mb-1 text-white bg-[#E02959]'>LOGIN WITH EMAIL</button>
     <h1 className='flex justify-center text-xs'>OR</h1>
     <button className='w-full h-10 font-bold text-xs mt-1 text-white bg-[#E02959]'>GUEST CHECKOUT</button>
-    <h1 className='flex justify-left text-xs pt-1'>New to Clicky?Create an Account!</h1>
+    <h1 className='flex justify-left text-xs pt-1'>New to Clicky? Create an Account!</h1>
     
               </div>
   )

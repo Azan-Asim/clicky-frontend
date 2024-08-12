@@ -4,11 +4,12 @@ import React from 'react';
 import { Search } from 'lucide-react';
 import Bottomnav from '../Components/Bottomnav'
 
-
+import Header from '../Components/Header';
 
 const Searchpage = () => {
     return (
         <>
+        <Header/>
         <div className="p-4 md:hidden">
 
             <div className="mb-4 w-full flex">

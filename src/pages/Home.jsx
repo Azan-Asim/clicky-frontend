@@ -25,8 +25,9 @@ function Home() {
       </div>
       <Bottomnav/>
       <Middlesection />
+      <Footerbottom/>
       <Footertop />
-<Footerbottom/>
+
     </>
   )
 }
