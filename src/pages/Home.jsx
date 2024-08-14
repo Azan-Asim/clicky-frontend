@@ -1,11 +1,12 @@
 import React from 'react'
 import '../App.css'
+
 // import Sellercard from '../components/homeComponent/Sellercard'
 import { categoryList } from '../data/category'
 
 
 // import Footerbottom from '../components/layout/Footerbottom'
-import Middlesection from '../components/Homecomponent/Middlesection'
+import Middlesection from '../components/homeComponent/Middlesection'
 function Home() {
   return (
     <>
