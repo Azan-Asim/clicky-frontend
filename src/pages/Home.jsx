@@ -1,10 +1,10 @@
 import React from 'react'
 import '../App.css'
-import Sellercard from '../components/homeComponent/Sellercard'
+// import Sellercard from '../components/homeComponent/Sellercard'
 import { categoryList } from '../data/category'
 
 
-import Footerbottom from '../components/layout/Footerbottom'
+// import Footerbottom from '../components/layout/Footerbottom'
 import Middlesection from '../components/Homecomponent/Middlesection'
 function Home() {
   return (
@@ -17,11 +17,11 @@ function Home() {
         <h1 className='font-semibold flex justify-center pt-5 sm:pt-10 text-xl sm:text-3xl'>TOP CATEGORY</h1>
       </div>
 
-      <div className='flex  grid-cols-3 sm:pt-12 pt-5 justify-center sm:grid-cols-4 md:grid-cols-6 gap-10  flex-wrap'>
+      {/* <div className='flex  grid-cols-3 sm:pt-12 pt-5 justify-center sm:grid-cols-4 md:grid-cols-6 gap-10  flex-wrap'>
         {categoryList.map((val) => {
           return <Sellercard title={val.title} image={val.image} />
         })}
-      </div>
+      </div> */}
       {/* <Bottomnav/> */}
       <Middlesection />
       {/* <Footerbottom/> */}
