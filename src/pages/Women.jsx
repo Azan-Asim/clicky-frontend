@@ -1,6 +1,6 @@
 import React from 'react'
 // import Header from '../components/Header'
-import Footertop from '../components/Footertop'
+// import Footertop from '../components/Footertop'
 import Productlist from '../components/Womencomponents/Productlist'
 import { womenTopsList } from '../data/products'
 import {ChevronRight} from 'lucide-react';
@@ -33,7 +33,7 @@ function Women() {
       </div>
       {/* <Bottomnav/> */}
 
-      <Footertop/>
+      {/* <Footertop/> */}
     </>
   )
 }
