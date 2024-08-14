@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Women from './pages/Women';
 import Newarrival from './pages/Newarrival';
@@ -10,52 +10,28 @@ import Shoppingbag from './pages/Shoppingbag';
 import Searchpage from './pages/Searchpage';
 import Notification from './pages/Notification';
 import './App.css';
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/women",
-    element: <Women />,
-  },
-  {
-    path: "/Newarrival",
-    element: <Newarrival />,
-  },
-  {
-    path: "/Sale",
-    element: <Sale />,
-  },
-  {
-    path: "/Customercare",
-    element: <Customercare />,
-  },
-  {
-    path: "/Productpage",
-    element: <Productpage />,
-  },
-  {
-    path: "/Shoppingbag",
-    element: <Shoppingbag />,
-  },
-  {
-    path: "/Searchpage",
-    element: <Searchpage />,
-  },
-  {
-    path: "/Notification",
-    element: <Notification />,
-  },
-]) //added a path for our route
-
-
+import Header from './components/layout/Header';
+import Bottomnav from './components/layout/Bottomnav';
 
 function App() {
   return (
-    <RouterProvider router={router} /> //wrapped our component(s) in the React router provider.
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Renders at /app/ */}
+        <Route path="/women" element={<Women />} /> {/* Renders at /app/women */}
+        <Route path="/Newarrival" element={<Newarrival />} />
+        <Route path="/Sale" element={<Sale />} />
+        <Route path="/Customercare" element={<Customercare />} />
+        <Route path="/Productpage" element={<Productpage />} />
+        <Route path="/Shoppingbag" element={<Shoppingbag />} />
+        <Route path="/Searchpage" element={<Searchpage />} />
+        <Route path="/Notification" element={<Notification />} />
+      </Routes>
+      <Bottomnav/>
+    </BrowserRouter>
 
-    );
+  );
 }
 
-export default App;
+export default App;

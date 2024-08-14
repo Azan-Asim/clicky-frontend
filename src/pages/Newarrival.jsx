@@ -1,16 +1,16 @@
 import React from 'react'
-import Header from '../Components/Header'
-import Footertop from '../Components/Footertop'
-import Tabsection from '../Components/Tabsection'
-import Newproducts from '../Components/Newarrival/Newproducts'
+// import Header from '../components/Header'
+import Footertop from '../components/Footertop'
+import Tabsection from '../components/Tabsection'
+import Newproducts from '../components/Newarrival/Newproducts'
 import { newProducts } from '../data/newProducts'
-import Bottomnav from '../Components/Bottomnav'
+// import Bottomnav from '../components/Bottomnav'
 
 
 function Newarrival() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <div>
         <div>
         <img src="./Freshdesigns.jpg" alt="" />
@@ -31,7 +31,7 @@ function Newarrival() {
           })}
         </div>
     </div>
-    <Bottomnav/>
+    {/* <Bottomnav/> */}
 
     <Footertop/>
     </>

@@ -1,17 +1,17 @@
 import React from 'react'
-import Header from '../Components/Header'
-import Footertop from '../Components/Footertop'
-import Productlist from '../Components/Womencomponents/Productlist'
+// import Header from '../components/Header'
+import Footertop from '../components/Footertop'
+import Productlist from '../components/Womencomponents/Productlist'
 import { womenTopsList } from '../data/products'
 import {ChevronRight} from 'lucide-react';
-import Bottomnav from '../Components/Bottomnav'
+// import Bottomnav from '../components/Bottomnav'
 
 
 function Women() {
   return (
     <>
 
-      <Header />
+      {/* <Header /> */}
       <div className='bg-[#EEEEEE]'>
         <div className=' w-full bg-[#EEEEEE] text-sm  gap-1 md:flex hidden items-center pl-5 sm:pl-10 sm:gap-5 h-16 '>
           <button>HOME</button> <ChevronRight />
@@ -31,7 +31,7 @@ function Women() {
           })}
         </div>
       </div>
-      <Bottomnav/>
+      {/* <Bottomnav/> */}
 
       <Footertop/>
     </>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../Components/Header'
-import Footertop from '../Components/Footertop'
-import Salecard from '../Components/Sale/Salecard'
+// import Header from '../components/Header'
+import Footertop from '../components/Footertop'
+import Salecard from '../components/Sale/Salecard'
 import { saleCard } from '../data/saleCard'
-import Bottomnav from '../Components/Bottomnav'
+// import Bottomnav from '../components/Bottomnav'
 
 import {
   Link
@@ -12,7 +12,7 @@ import {
 function Sale() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <div className=' w-full md:p-5 bg-slate-100'><img src="./Home.png" alt="" /></div>
 <div className='bg-black w-full text-white'>
 <div className='flex gap-6 justify-center p-6'>
@@ -46,7 +46,7 @@ function Sale() {
           })}
         </div>
 </div>
-<Bottomnav/>
+{/* <Bottomnav/> */}
 
     <Footertop/>
     </>

@@ -4,7 +4,7 @@ import {User} from 'lucide-react';
 import {Flame} from 'lucide-react';
 import {LayoutDashboard} from 'lucide-react';
 import {Link} from "react-router-dom";
-import Loginorsignup from './Loginorsignup';
+import Loginorsignup from '../Loginorsignup';
 import { Home } from 'lucide-react';
 
 

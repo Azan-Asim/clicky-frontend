@@ -1,7 +1,7 @@
 import React from 'react'
-import Deliveryaddressform from '../Components/Shoppingbag/Deliveryaddressform'
-import Coupons from '../Components/Shoppingbag/Coupons'
-import Bottomnav from '../Components/Bottomnav'
+import Deliveryaddressform from '../components/Shoppingbag/Deliveryaddressform'
+import Coupons from '../components/Shoppingbag/Coupons'
+// import Bottomnav from '../components/Bottomnav'
 import {Link} from "react-router-dom";
 
 
@@ -36,7 +36,7 @@ function Shoppingbag() {
     <Deliveryaddressform/>
 <Coupons/>
     </div>
-    <Bottomnav/>
+    {/* <Bottomnav/> */}
     </>
   )
 }

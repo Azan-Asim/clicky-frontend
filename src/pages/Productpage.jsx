@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../Components/Header'
+import Header from '../components/layout/Header'
 import { Heart } from 'lucide-react'
-import Bottomnav from '../Components/Bottomnav'
+// import Bottomnav from '../Components/Bottomnav'
 
 function Productpage() {
   return (
@@ -52,7 +52,7 @@ function Productpage() {
 
         </div>
     </div>
-    <Bottomnav/>
+    {/* <Bottomnav/> */}
 
     </>
   )

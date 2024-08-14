@@ -1,16 +1,15 @@
 import React from 'react'
 import '../App.css'
-import Sellercard from '../Components/Homecomponent/Sellercard'
+import Sellercard from '../components/homeComponent/Sellercard'
 import { categoryList } from '../data/category'
-import Header from '../Components/Header'
-import Footertop from '../Components/Footertop'
-import Footerbottom from '../Components/Footerbottom'
-import Middlesection from '../Components/Homecomponent/Middlesection'
-import Bottomnav from '../Components/Bottomnav'
+
+
+import Footerbottom from '../components/layout/Footerbottom'
+import Middlesection from '../components/Homecomponent/Middlesection'
 function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className=' w-full top-40'>
         <img className='md:w-full size-auto' src="./Home.png" alt="" />
       </div>
@@ -23,10 +22,10 @@ function Home() {
           return <Sellercard title={val.title} image={val.image} />
         })}
       </div>
-      <Bottomnav/>
+      {/* <Bottomnav/> */}
       <Middlesection />
-      <Footerbottom/>
-      <Footertop />
+      {/* <Footerbottom/> */}
+      {/* <Footertop /> */}
 
     </>
   )

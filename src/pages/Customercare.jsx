@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/layout/Header'
-import Footer from '../Components/Footertop'
-import Bottomnav from '../Components/Bottomnav'
+import Footer from '../components/Footertop'
+// import Bottomnav from '../components/Bottomnav'
 // import { Accordion } from '../components/Accordion'
 function Customercare() {
   return (
@@ -46,7 +46,7 @@ function Customercare() {
 {/* </div> */}
 
         </div>
-        <Bottomnav/>
+        {/* <Bottomnav/> */}
     <Footer/>
     </>
   )
