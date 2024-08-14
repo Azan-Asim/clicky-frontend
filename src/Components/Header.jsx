@@ -7,7 +7,6 @@ import { ListOrdered } from 'lucide-react';
 import Loginorsignup from './Loginorsignup';
 import { Link } from "react-router-dom";
 import DropDown from './DropDown'
-
 function Header() {
 
   const men = {
