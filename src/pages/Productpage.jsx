@@ -3,7 +3,7 @@ import Header from '../components/layout/Header'
 import { Heart } from 'lucide-react'
 // import Bottomnav from '../Components/Bottomnav'
 
-function Productpage() {
+function ProductPage() {
   return (
     <>
     <Header/>
@@ -58,4 +58,4 @@ function Productpage() {
   )
 }
 
-export default Productpage
+export default ProductPage

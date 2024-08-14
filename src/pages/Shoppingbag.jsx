@@ -1,11 +1,11 @@
 import React from 'react'
-import Deliveryaddressform from '../components/Shoppingbag/Deliveryaddressform'
-import Coupons from '../components/Shoppingbag/Coupons'
+import Deliveryaddressform from '../components/shoppingBag/Deliveryaddressform'
+import Coupons from '../components/shoppingBag/Coupons'
 // import Bottomnav from '../components/Bottomnav'
 import {Link} from "react-router-dom";
 
 
-function Shoppingbag() {
+function ShoppingBag() {
   return (
     <>
     <div className='w-full h-20 lg:pl-36  lg:pr-36 md:pl-16  md:pr-16 pl-5 pr-5 flex items-center justify-between sticky top-0 bg-white '> 
@@ -41,4 +41,4 @@ function Shoppingbag() {
   )
 }
 
-export default Shoppingbag
+export default ShoppingBag

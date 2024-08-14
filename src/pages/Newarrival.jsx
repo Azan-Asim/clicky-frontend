@@ -2,12 +2,12 @@ import React from 'react'
 // import Header from '../components/Header'
 import Footertop from '../components/Footertop'
 import Tabsection from '../components/Tabsection'
-import Newproducts from '../components/Newarrival/Newproducts'
+import Newproducts from '../components/newArrival/Newproducts'
 import { newProducts } from '../data/newProducts'
 // import Bottomnav from '../components/Bottomnav'
 
 
-function Newarrival() {
+function NewArrival() {
   return (
     <>
     {/* <Header/> */}
@@ -38,4 +38,4 @@ function Newarrival() {
   )
 }
 
-export default Newarrival
+export default NewArrival
