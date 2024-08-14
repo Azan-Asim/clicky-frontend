@@ -6,7 +6,8 @@ import { User } from 'lucide-react';
 import { ListOrdered } from 'lucide-react';
 import Loginorsignup from './Loginorsignup';
 import { Link } from "react-router-dom";
-import DropDown from './DropDown';
+import DropDown from './DropDown'
+
 function Header() {
 
   const men = {
@@ -355,8 +356,7 @@ dropDownData:[
       <div className='w-24 '>
       <Link to='/'>  <img className='w-full ' src="./clickylogo.png" alt="" /></Link>
       </div>
-     
-<DropDown data={men}/>
+  <DropDown data={men}/>
 <DropDown data={women}/>
 <DropDown data={kids}/>
 <DropDown data={beauty}/>

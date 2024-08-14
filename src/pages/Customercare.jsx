@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footertop'
 import Bottomnav from '../Components/Bottomnav'
-
+// import { Accordion } from '../components/Accordion'
 function Customercare() {
   return (
     <>
@@ -32,17 +32,18 @@ function Customercare() {
 
 </div>
 <h1 className=' text-2xl sm:text-4xl font-bold pt-8 pb-4 '>Frequently Asked Questions</h1>
-<div className='bg-white w-full h-[510px] pt-4 pb-4'>
-    <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>How can i keep track of the status of my order?</div> <hr />
+{/* <div className='bg-white w-full h-[510px] pt-4 pb-4'> */}
+  {/* <Accordion/> */}
+    {/* <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>How can i keep track of the status of my order?</div> <hr />
     <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>Will I get a confirmation call from Clicky after placing order? </div> <hr />
     <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>How can I cancel my order?</div> <hr />
     <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>What is the procedure for Returns or Exchange?</div> <hr />
     <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>I wish to become a seller on Clicky</div> <hr />
     <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>I can’t sign in to my account.</div> <hr />
-    <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>What are the delivery charges?</div> 
+    <div className='h-[67px] sm:pl-[30px] sm:pr-[30px] pl-[15px] pr-[15px] text-xs flex items-center'>What are the delivery charges?</div>  */}
 
 
-</div>
+{/* </div> */}
 
         </div>
         <Bottomnav/>
