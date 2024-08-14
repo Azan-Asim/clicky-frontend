@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Components/Header'
+import Header from '../components/layout/Header'
 import Footer from '../Components/Footertop'
 import Bottomnav from '../Components/Bottomnav'
 // import { Accordion } from '../components/Accordion'

@@ -4,9 +4,9 @@ import { Heart } from 'lucide-react';
 import React, { useState } from 'react'
 import { User } from 'lucide-react';
 import { ListOrdered } from 'lucide-react';
-import Loginorsignup from './Loginorsignup';
+import Loginorsignup from '../Loginorsignup';
 import { Link } from "react-router-dom";
-import DropDown from './DropDown'
+import DropDown from '../DropDown'
 function Header() {
 
   const men = {
