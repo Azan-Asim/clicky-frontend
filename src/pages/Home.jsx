@@ -1,11 +1,11 @@
 import '../App.css'
 
-import SellerCard from '../components/Homecomponent/SellerCard'
+import SellerCard from '../components/homeComponents/SellerCard'
 import { categoryList } from '../data/category'
 
 
 import Footerbottom from '../components/layout/Footerbottom'
-import Middlesection from '../components/homeComponent/Middlesection'
+import MiddleSection from '../components/homeComponents/MiddleSection'
 function Home() {
   return (
     <>
@@ -23,7 +23,7 @@ function Home() {
         })}
       </div>
       {/* <Bottomnav/> */}
-      <Middlesection />
+      <MiddleSection />
       <Footerbottom/>
       {/* <FooterTop /> */}
 
