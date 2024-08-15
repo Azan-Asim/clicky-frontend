@@ -1,4 +1,3 @@
-import React from 'react'
 import '../App.css'
 
 import SellerCard from '../components/Homecomponent/SellerCard'
