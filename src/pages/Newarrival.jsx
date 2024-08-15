@@ -1,6 +1,6 @@
 import React from 'react'
 // import Header from '../components/Header'
-import Footertop from '../components/Footertop'
+import Footertop from '../components/FooterTop'
 import Tabsection from '../components/Tabsection'
 import Newproducts from '../components/newArrival/Newproducts'
 import { newProducts } from '../data/newProducts'
