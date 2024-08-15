@@ -1,6 +1,6 @@
 import React from 'react'
 // import Header from '../components/layout/Header'
-// import Footer from '../components/Footertop'
+// import Footer from '../components/FooterTop'
 // import Bottomnav from '../components/Bottomnav'
 import Accordion from '../components/Accordion'
 function Customercare() {

@@ -26,7 +26,7 @@ function Home() {
       {/* <Bottomnav/> */}
       <Middlesection />
       <Footerbottom/>
-      {/* <Footertop /> */}
+      {/* <FooterTop /> */}
 
     </>
   )
