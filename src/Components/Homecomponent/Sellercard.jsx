@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function SellerCard({ title, image }) {
+const SellerCard = ({ title, image }) => {
   return (
     <Link to="/women">
       <div className=" justify-between rounded">
