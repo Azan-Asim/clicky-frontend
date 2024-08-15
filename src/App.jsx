@@ -12,8 +12,7 @@ import Notification from './pages/Notification';
 import './App.css';
 import Header from './components/layout/Header';
 import Bottomnav from './components/layout/Bottomnav';
-import FooterTop from './components/FooterTop'
-
+import FooterTop from './components/layout/FooterTop';
 function App() {
   return (
     <BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react'
 // import Header from '../components/Header'
-import Footertop from '../components/FooterTop'
+import Footertop from '../components/layout/FooterTop'
 import Salecard from '../components/Sale/Salecard'
 import { saleCard } from '../data/saleCard'
 // import Bottomnav from '../components/Bottomnav'
