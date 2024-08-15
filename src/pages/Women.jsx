@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductList from '../components/womenComponents/Productlist';
+import ProductList from '../components/womenComponents/ProductList';
 import { womenTopsList } from '../data/products'
 import {ChevronRight} from 'lucide-react';
 
