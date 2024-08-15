@@ -5,7 +5,7 @@ import Sellercard from '../components/homeComponent/Sellercard'
 import { categoryList } from '../data/category'
 
 
-// import Footerbottom from '../components/layout/Footerbottom'
+import Footerbottom from '../components/layout/Footerbottom'
 import Middlesection from '../components/homeComponent/Middlesection'
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
       </div>
       {/* <Bottomnav/> */}
       <Middlesection />
-      {/* <Footerbottom/> */}
+      <Footerbottom/>
       {/* <Footertop /> */}
 
     </>

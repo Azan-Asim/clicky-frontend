@@ -12,7 +12,7 @@ import Notification from './pages/Notification';
 import './App.css';
 import Header from './components/layout/Header';
 import Bottomnav from './components/layout/Bottomnav';
-// import Footertop from './components/Footertop'
+import Footertop from './components/Footertop'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route path="/Notification" element={<Notification />} />
       </Routes>
       <Bottomnav/>
-      {/* <Footertop/> */}
+      <Footertop/>
     </BrowserRouter>
 
   );
