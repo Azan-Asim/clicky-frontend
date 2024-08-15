@@ -12,7 +12,7 @@ import Notification from './pages/Notification';
 import './App.css';
 import Header from './components/layout/Header';
 import Bottomnav from './components/layout/Bottomnav';
-import FooterTop from './components/layout/FooterTop';
+import Footer from './components/layout/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -29,7 +29,7 @@ function App() {
         <Route path="/Notification" element={<Notification />} />
       </Routes>
       <Bottomnav/>
-      <FooterTop/>
+      <Footer/>
     </BrowserRouter>
 
   );

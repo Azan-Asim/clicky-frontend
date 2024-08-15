@@ -3,7 +3,7 @@ import { Facebook } from 'lucide-react';
 import {Instagram} from 'lucide-react';
 import {Twitter} from 'lucide-react';
 
-const FooterTop = () => {
+const Footer = () => {
     return (
       
             <div className=' bg-slate-100 grid lg:grid-cols-5 lg:gap-1  p-10 gap-x-2 gap-y-3 sm:grid-cols-3 grid-cols-1 w-full md:h-64  text-xs'>
@@ -54,4 +54,4 @@ const FooterTop = () => {
     )
 }
 
-export default FooterTop
+export default Footer

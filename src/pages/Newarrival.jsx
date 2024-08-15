@@ -1,6 +1,5 @@
 import React from 'react'
 // import Header from '../components/Header'
-import Footertop from '../components/layout/FooterTop'
 import Tabsection from '../components/Tabsection'
 import Newproducts from '../components/newArrival/Newproducts'
 import { newProducts } from '../data/newProducts'
@@ -33,7 +32,7 @@ function NewArrival() {
     </div>
     {/* <Bottomnav/> */}
 
-    <Footertop/>
+    {/* <Footertop/> */}
     </>
   )
 }
