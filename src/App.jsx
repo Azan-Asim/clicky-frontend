@@ -11,7 +11,7 @@ import Searchpage from './pages/Searchpage';
 import Notification from './pages/Notification';
 import './App.css';
 import Header from './components/layout/Header';
-import Bottomnav from './components/layout/Bottomnav';
+import BottomNav from './components/layout/BottomNav';
 import Footer from './components/layout/Footer';
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path="/Searchpage" element={<Searchpage />} />
         <Route path="/Notification" element={<Notification />} />
       </Routes>
-      <Bottomnav/>
+      <BottomNav/>
       <Footer/>
     </BrowserRouter>
 

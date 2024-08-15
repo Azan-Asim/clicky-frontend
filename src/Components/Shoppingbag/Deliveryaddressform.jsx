@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Deliveryaddressform = () => {
+const DeliveryAddressForm = () => {
   return (
   
 <div className='flex-col hidden md:flex'>
@@ -62,4 +60,4 @@ const Deliveryaddressform = () => {
   );
 };
 
-export default Deliveryaddressform;
+export default DeliveryAddressForm;

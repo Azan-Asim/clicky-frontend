@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Salecard({image}) {
+function SaleCard({image}) {
   return (
   
   
@@ -14,4 +14,4 @@ function Salecard({image}) {
          )
         }
         
-        export default Salecard
+        export default SaleCard

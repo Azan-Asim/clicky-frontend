@@ -1,8 +1,7 @@
 import React from 'react'
-// import Header from '../components/Header'
-import Salecard from '../components/Sale/Salecard'
+import SaleCard from '../components/sale/SaleCard'
 import { saleCard } from '../data/saleCard'
-// import Bottomnav from '../components/Bottomnav'
+
 
 import {
   Link

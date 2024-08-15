@@ -1,5 +1,5 @@
 import React from 'react'
-import Deliveryaddressform from '../components/shoppingBag/Deliveryaddressform'
+import DeliveryAddressForm from '../components/shoppingBag/DeliveryAddressForm'
 import Coupons from '../components/shoppingBag/Coupons'
 // import Bottomnav from '../components/Bottomnav'
 import {Link} from "react-router-dom";
@@ -33,7 +33,7 @@ function ShoppingBag() {
     <div></div>
    </div> */}
     <div  className='w-full justify-center pt-10 pb-10 bg-[#EEEEEE] flex md:gap-4 lg:gap-5'>
-    <Deliveryaddressform/>
+    <DeliveryAddressForm/>
 <Coupons/>
     </div>
     {/* <Bottomnav/> */}

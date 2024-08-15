@@ -8,7 +8,7 @@ import Loginorsignup from '../Loginorsignup';
 import { Home } from 'lucide-react';
 
 
-function Bottomnav() {
+function BottomNav() {
   const [isCategoryVisible, setIsCategoryVisible] = useState(false);
   console.log("condition : " + isCategoryVisible)
   const togglebox = () => {
@@ -47,4 +47,4 @@ function Bottomnav() {
   )
 }
 
-export default Bottomnav
+export default BottomNav
