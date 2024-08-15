@@ -1,16 +1,12 @@
 import React from 'react'
-// import Header from '../components/Header'
-// import Footertop from '../components/Footertop'
-import Productlist from '../components/womenComponents/Productlist'
+import ProductList from '../components/womenComponents/Productlist';
 import { womenTopsList } from '../data/products'
 import {ChevronRight} from 'lucide-react';
-// import Bottomnav from '../components/Bottomnav'
 
 
 function Women() {
   return (
     <>
-
       {/* <Header /> */}
       <div className='bg-[#EEEEEE]'>
         <div className=' w-full bg-[#EEEEEE] text-sm  gap-1 md:flex hidden items-center pl-5 sm:pl-10 sm:gap-5 h-16 '>
@@ -27,7 +23,7 @@ function Women() {
         </div>
         <div className='flex gap-y-6  justify-around p-8 flex-wrap '>
           {womenTopsList.map((val) => {
-            return <Productlist brand={val.brand} title={val.title} image={val.image} rs={val.rs} />
+            return <ProductList brand={val.brand} title={val.title} image={val.image} rs={val.rs} />
           })}
         </div>
       </div>
