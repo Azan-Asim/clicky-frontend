@@ -3,88 +3,88 @@ export const saleCard=[
    
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },{
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },{
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },{
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },{
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },{
       
-      image:"./Topssale.jpg"
+      image:"./TopsSale.jpg"
     },
     {
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },
       {
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },{
       
-        image:"./Topssale.jpg"
+        image:"./TopsSale.jpg"
       },
 
   ]

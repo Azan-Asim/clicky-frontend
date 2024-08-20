@@ -1,12 +1,12 @@
 import React from 'react'
 import SaleCard from '../components/sale/SaleCard'
-import { saleCard } from '../data/saleCard'
-
+import { saleCard }  from '../data/saleCard'
 
 import {
   Link
 } from "react-router-dom";
 
+console.log("Data"+ saleCard[0].image)
 function Sale() {
   return (
     <>
@@ -21,26 +21,26 @@ function Sale() {
 </div>
 <div className=' md:text-2xl text-xl flex justify-center font-bold'>FOR WOMEN</div>
 <div className='flex bg-black  p-7 justify-around gap-y-8 flex-wrap '>
-          {saleCard.map((val) => {
-            return <Salecard  image={val.image} />
+          {saleCard.map((val, index) => {
+            return <SaleCard key={index}  image={val.image} />
           })}
         </div>
         <div className=' md:text-2xl text-xl flex justify-center font-bold'>FOR MEN</div>
 <div  className='flex bg-black  p-7 justify-around gap-y-8 flex-wrap '>
           {saleCard.map((val) => {
-            return <Salecard  image={val.image} />
+            return <SaleCard  image={val.image} />
           })}
         </div>
         <div className=' md:text-2xl text-xl flex justify-center font-bold'>FOR GIRLS</div>
 <div  className='flex bg-black  p-7 justify-around gap-y-8 flex-wrap '>
           {saleCard.map((val) => {
-            return <Salecard  image={val.image} />
+            return <SaleCard  image={val.image} />
           })}
         </div>
         <div className=' md:text-2xl text-xl flex justify-center font-bold'>FOR BOYS</div>
 <div  className='flex bg-black  p-7 justify-around gap-y-8 flex-wrap '>
           {saleCard.map((val) => {
-            return <Salecard  image={val.image} />
+            return <SaleCard  image={val.image} />
           })}
         </div>
 </div>

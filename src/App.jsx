@@ -18,8 +18,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Renders at /app/ */}
-        <Route path="/women" element={<Women />} /> {/* Renders at /app/women */}
+        <Route path="/" element={<Home />} /> 
+        <Route path="/women" element={<Women />} /> 
         <Route path="/Newarrival" element={<Newarrival />} />
         <Route path="/Sale" element={<Sale />} />
         <Route path="/Customercare" element={<Customercare />} />
